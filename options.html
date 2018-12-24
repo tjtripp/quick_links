@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Quick Links Options</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h4>Quick Links Options Page</h4>
+  <div id="tab-section">
+    <p>Open links in:</p>
+    <form id="form-options">
+      <div>
+        <input type="radio" id="new-tab" name="tab-option" value="new-tab" checked>
+        <label for="new-tab">New Tab</label>
+      </div>
+      <div>
+        <input type="radio" id="current-tab" name="tab-option" value="current-tab">
+        <label for="current-tab">Current Tab</label>
+      </div>
+      <div id="entity-section">
+        <p>Enter new entities:</p>
+      </div>
+      <br>
+      <button type="submit" id="save-button">Save</button>
+      </form>
+      <div id="status"></div>
+  </div>
+</body>
+<script src="options.js"></script>
+
+</html>

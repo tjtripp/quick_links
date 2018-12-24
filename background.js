@@ -1,11 +1,11 @@
 
-var background = {
+const background = {
 
   config: {},
-  init: function() {
-  
-  }
-  
+  init() {
+
+  },
+
 };
 
 background.init();
